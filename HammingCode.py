@@ -94,3 +94,5 @@ codeword ^= 1 << error_location
 decoded_data, error_location = hamming_code.decode(codeword)
 print(f"Decoded data: {bin(decoded_data)}")
 print(f"Error location: {error_location}")
+
+
